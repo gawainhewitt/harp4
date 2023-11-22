@@ -150,10 +150,10 @@ class DomManager {
   }
 
   showStart() {
-    document.querySelector("#infotext").innerHTML = `<h1>Bars</h1> <br>
+    document.querySelector("#infotext").innerHTML = `<h1>Gawain's wonder harp</h1> <br>
     <p>To play:  <br>
     touch or click screen, <br>
-    or use ZXCV keys<br>
+    or use QWERTY keys<br>
     on a keyboard<br><br>
     On Apple devices,<br>
     turn off silent mode</p><br><br>`;

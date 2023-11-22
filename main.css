@@ -210,7 +210,7 @@ p {
 
 .startscreen {
   margin: 0 auto;
-  background: white;
+  background: var(--yellow);
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
   width: 100vw;
@@ -218,9 +218,9 @@ p {
   grid-template-columns: repeat(12, [col-start] 1fr);
   grid-template-rows: auto;
   grid-template-areas:
-    ". . . . orchlogo orchlogo orchlogo orchlogo . . . ."
+    ". . . . orchlogo orchlogo orchlogo orchlogo . . . ."                 /*look at this and below to get rid of logos and still have working screen*/
     ". . text text text text text text text text . ."
-    ". . lpologo lpologo lpolog . . dmlogo dmlogo dmlogo . .";
+    ". . lpologo lpologo lpologo . . dmlogo dmlogo dmlogo . .";
   z-index: 10;
   position: absolute;
 }
